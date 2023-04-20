@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginteste</title>
+    <script src="loginteste.js"></script>
+    <script src="loginteste .css"></script>
+    <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(45deg, cyan, rgb(219, 191, 32))
+            }
+            .tela-login{
+                background-color: rgba(0, 0, 0, 0.9);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                padding: 50px;
+                border-radius: 15px;
+                color: whitesmoke;
+            }
+            input{
+                padding: 15px;
+                border: none;
+                outline: none;
+            }
+            button{
+                background-color: aqua;
+                padding: 15px;
+                border: none;
+                width: 40%;
+
+            }
+    </style>
+</head>
+<body>
+    <form action = "loginteste.js" method ="post">
+
+        <div class="tela-login">
+             <h1>Login</h1>
+             <input type ="text" id="username" name="username" placeholder="Nome Usuário">
+             <br><br>
+             <input type="password" id="password" name="password" placeholder="Senha">
+             <br><br>
+             <button type="submit">Login</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
